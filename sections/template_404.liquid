@@ -1,1 +1,19 @@
-{{ 'general.404.title' | t }}
+<h1>{{ section.settings.title }}</h1>
+<p>{{'general.404.subtext_html' | t }}</p>
+
+
+
+{%  schema  %} 
+{
+  "name": "Template 404",
+  "settings" : [
+    {
+       "type": "text",
+       "id" : "title",
+       "default": "404",
+       "label":"404 Heading title"
+    }
+  ] 
+
+}
+{% endschema %}
