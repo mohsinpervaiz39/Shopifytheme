@@ -13,7 +13,9 @@
       "type": "template_404",
       "settings": {
         "title": "404 Page and Post Not Found",
-        "subtext_title": "No post and page avaliable12"
+        "subtext_title": "No post and page avaliable12",
+        "button_label": "Back to Cart",
+        "button_url": "shopify://pages/contact"
       }
     }
   },
