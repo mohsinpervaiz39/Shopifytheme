@@ -14,8 +14,15 @@
       "settings": {
         "enable_author": true,
         "enable_time": false
-      }
-    }
+      },
+      "blocks": {
+        "title": {
+          "type": "article_title",
+        }
+
+      },
+      "block_order": ["title"]
+    } 
   },
   "order": [
     "template"
