@@ -48,8 +48,9 @@
 
 </article>
 
-
-
+{% if blog.comments_enabled? %}
+    hello world
+{% endif %}
 
 {% schema %}
 {
